@@ -5,5 +5,5 @@ target/
 bazel-bin
 bazel-genfiles
 bazel-out
-bazel-petitparser
+bazel-java-petitparser
 bazel-testlogs
