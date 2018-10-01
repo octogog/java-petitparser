@@ -13,7 +13,7 @@ public abstract class Result extends Context {
    * Returns {@code true} if this result indicates a parse success.
    */
   public boolean isSuccess() {
-    return false;
+    return true;
   }
 
   /**
