@@ -53,7 +53,7 @@ public abstract class Parser {
    * Tests if the {@code input} can be successfully parsed.
    */
   public boolean accept(String input) {
-    return true;
+    return parse(input).isSuccess();
   }
 
   /**
